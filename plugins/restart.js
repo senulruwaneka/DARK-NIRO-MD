@@ -10,7 +10,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!isOwner) ruturn
+if(!isOwner) return
 const {exec} = require("child_process")
 reply("dark niro md restarting...")
 await sleep(1500)
